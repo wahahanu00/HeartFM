@@ -1,0 +1,61 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	    -ms-flex-direction:column;
+	        flex-direction:column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.tuijian{
+	position: relative;
+	top:30px;
+	left: 30px;
+	padding-bottom: 10px;
+	
+	font-size: 30px;
+	font-weight: 2000;
+}
+.box{
+	
+	background-color: #ffffff;
+	width: 650rpx;
+	height:fix;
+	
+	border-radius: 10px;
+	margin-top: 40px;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+.img{
+		width: 650rpx;
+		height: fix;
+}
+.title-back{
+	position: relative;
+	
+	
+	width: 100%;
+	height: 60px;
+	  background: -webkit-gradient( linear,left top, right top,from(rgb(70, 120, 190)), color-stop(rgb(212, 203, 203)), color-stop(rgb(192, 172, 172)), color-stop(rgb(168, 192, 168)), color-stop(rgb(182, 182, 207)), color-stop(rgb(173, 157, 184)), to(rgb(190, 156, 190)));
+	  background: -o-linear-gradient( left,rgb(70, 120, 190), rgb(212, 203, 203), rgb(192, 172, 172), rgb(168, 192, 168), rgb(182, 182, 207), rgb(173, 157, 184), rgb(190, 156, 190));
+	  background: linear-gradient( to right,rgb(70, 120, 190), rgb(212, 203, 203), rgb(192, 172, 172), rgb(168, 192, 168), rgb(182, 182, 207), rgb(173, 157, 184), rgb(190, 156, 190));
+	opacity: 0.6;
+	top: -5px;
+	border-radius:0px 0px 10px 10px;
+}
+.title{
+	text-align: center;
+	font-size: 18px;
+	line-height: 60px;
+	font-weight: bolder;
+	opacity: 1;
+}
+
